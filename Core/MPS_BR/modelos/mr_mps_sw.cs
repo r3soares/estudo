@@ -61,109 +61,130 @@ namespace MPS_BR
                 {
                     Sigla = "GPR",
                     Nome = "Gerência de Projetos",
+                    Descricao = "Estabelecer e manter planos que definem atividades, recursos e responsabilidades do projeto",
                 },
                 new Processo()
                 {
                     Sigla = "GRE",
                     Nome = "Gerência de Requisitos",
+                    Descricao = "Gerenciar os requisitos do produto e dos componentes do produto do projeto e identificar inconsistências",
                 },
                 new Processo()
                 {
                     Sigla = "AQU",
                     Nome = "Aquisição",
                     Opcional = true,
+                    Descricao = "Gerenciar a aquisição de produtos que satisfaçam as necessidades do adquirente"
                 },
                 new Processo()
                 {
                     Sigla = "GCO",
                     Nome = "Gerência de Configuração",
+                    Descricao = "Estabelecer e manter a integridade de todos os produtos de trabalho de um processo ou projeto",
                 },
                 new Processo()
                 {
                     Sigla = "GPP",
                     Nome = "Gerência de Portfólio de Projetos",
                     Opcional = true,
+                    Descricao = "Iniciar e manter projetos que sejam necessários, suficientes e sustentáveis, de forma a atender os objetivos estratégicos da organização",
                 },
                 new Processo()
                 {
                     Sigla = "GQA",
                     Nome = "Garantia da Qualidade",
+                    Descricao = "Assegurar que os produtos de trabalho e execução dos processos estejam em conformidade com os planos, procedimentos e padrões estabelecidos",
                 },
                 new Processo()
                 {
                     Sigla = "MED",
                     Nome = "Medição",
+                    Descricao = "Coletar, armazenar, analisar e relatar dados relativos aos produtos desenvolvidos e aos processos implementados",
                 },
                 new Processo()
                 {
                     Sigla = "AMP",
                     Nome = "Avaliação e Melhoria do Processo Organizacional",
+                    Descricao = "Determinar o quanto os processos padrão da organização contribuem para alcançar os objetivos do negócio da organização",
                 },
                 new Processo()
                 {
                     Sigla = "DFP",
                     Nome = "Definição do Processo Organizacional",
+                    Descricao = "Estabelecer e manter um conjunto de ativos de processo organizacional e padrões do ambiente de trabalho usáveis e aplicáveis",
                 },
                 new Processo()
                 {
                     Sigla = "GRH",
                     Nome = "Gerência de Recursos Humanos",
+                    Descricao = "Prover a organização e os projetos os recursos humanos necessários e manter suas competências necessárias",
                 },
                 new Processo()
                 {
                     Sigla = "GRU",
                     Nome = "Gerência de Reutilização",
+                    Descricao = "Gerenciar o ciclo de vida dos ativos reutilizáveis",
                 },
                 new Processo()
                 {
                     Sigla = "GPR",
                     Nome = "Gerência de Projetos - Evolução",
+                    Descricao = "Estabelecer e manter planos que definem atividades, recursos e responsabilidades do projeto",
                 },
                 new Processo()
                 {
                     Sigla = "DRE",
                     Nome = "Desenvolvimento de Requisitos",
+                    Descricao = "Definir os requisitos do cliente, do produto e dos componentes do produto",
                 },
                 new Processo()
                 {
                     Sigla = "ITP",
                     Nome = "Integração de Produto",
+                    Descricao = "Compor os componentes do produto, produzindo um produto integrado consistente com o seu projeto",
                 },
                 new Processo()
                 {
-                    Sigla = "CPC",
+                    Sigla = "PCP",
                     Nome = "Projeto e Construção de Produto",
+                    Descricao = "Projetar, desenvolver e implementar soluções para atender os requisitos",
                 },
                 new Processo()
                 {
                     Sigla = "VAL",
                     Nome = "Validação",
+                    Descricao = "Confirmar que um produto ou componente atenderá ao uso pretendido quando colocado no ambiente para qual foi desenvolvido",
                 },
                 new Processo()
                 {
                     Sigla = "VER",
                     Nome = "Verificação",
+                    Descricao = "Confirmar que cada serviço e/ou produto de trabalho do processo ou do projeto atenda aos requisitos especificados",
                 },
                 new Processo()
                 {
                     Sigla = "GDE",
                     Nome = "Gerência de Decisão",
+                    Descricao = "Analisar possíveis decisões críticas usando processo formal, com critérios estabelecidos",
                 },
                 new Processo()
                 {
                     Sigla = "DRU",
                     Nome = "Desenvolvimento para Reutilização",
+                    Descricao = "Identificar oportunidades de reutilização sistemática de ativos da organização",
                     Opcional = true,
                 },
                 new Processo()
                 {
                     Sigla = "GRI",
                     Nome = "Gerência de Riscos",
+                    Descricao = "Identificar, analisar, tratar, monitorar e reduzir continuamente os riscos em nível organizacional e de projeto",
                 },
                 new Processo()
                 {
                     Sigla = "GPR",
                     Nome = "Gerência de Projetos",
+                    Descricao = "Estabelecer e manter planos que definem atividades, recursos e responsabilidades do projeto",
                 },
             };
 

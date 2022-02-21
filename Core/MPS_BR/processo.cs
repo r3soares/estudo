@@ -30,5 +30,6 @@ namespace MPS_BR
         public string Sigla { get; init; }
         public string Nome { get; init; }
         public bool Opcional { get; set; } = false;
+        public string Descricao { get; init; }
     }
 }
