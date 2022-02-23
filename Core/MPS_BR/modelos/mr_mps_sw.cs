@@ -214,6 +214,14 @@ namespace MPS_BR
                         atributosDeProcesso[(int)AP. Executado11],
                         atributosDeProcesso[(int)AP. Gerenciado21],
                         atributosDeProcesso[(int)AP. Gerenciado22],
+                    },
+                    Processos = new Processo[]
+                    {
+                        processos[(int)ProcessoEnum.AQU],
+                        processos[(int)ProcessoEnum.GCO],
+                        processos[(int)ProcessoEnum.GPP],
+                        processos[(int)ProcessoEnum.GQA],
+                        processos[(int)ProcessoEnum.MED],
                     }
                 },
                 new Nivel()
@@ -227,6 +235,14 @@ namespace MPS_BR
                         atributosDeProcesso[(int)AP. Gerenciado22],
                         atributosDeProcesso[(int)AP. Definido31],
                         atributosDeProcesso[(int)AP. Definido32],
+                    },
+                    Processos = new Processo[]
+                    {
+                        processos[(int)ProcessoEnum.AMP],
+                        processos[(int)ProcessoEnum.DFP],
+                        processos[(int)ProcessoEnum.GRH],
+                        processos[(int)ProcessoEnum.GRU],
+                        processos[(int)ProcessoEnum.GPR2],
                     }
                 },
                 new Nivel()
@@ -240,6 +256,14 @@ namespace MPS_BR
                         atributosDeProcesso[(int)AP. Gerenciado22],
                         atributosDeProcesso[(int)AP. Definido31],
                         atributosDeProcesso[(int)AP. Definido32],
+                    },
+                    Processos = new Processo[]
+                    {
+                        processos[(int)ProcessoEnum.DRE],
+                        processos[(int)ProcessoEnum.ITP],
+                        processos[(int)ProcessoEnum.CPC],
+                        processos[(int)ProcessoEnum.VAL],
+                        processos[(int)ProcessoEnum.VER],
                     }
                 },
                 new Nivel()
@@ -253,6 +277,12 @@ namespace MPS_BR
                         atributosDeProcesso[(int)AP. Gerenciado22],
                         atributosDeProcesso[(int)AP. Definido31],
                         atributosDeProcesso[(int)AP. Definido32],
+                    },
+                    Processos = new Processo[]
+                    {
+                        processos[(int)ProcessoEnum.GDE],
+                        processos[(int)ProcessoEnum.DRU],
+                        processos[(int)ProcessoEnum.GRI],
                     }
                 },
                 new Nivel()
@@ -268,7 +298,12 @@ namespace MPS_BR
                         atributosDeProcesso[(int)AP. Definido32],
                         atributosDeProcesso[(int)AP. Quantitativo41],
                         atributosDeProcesso[(int)AP. Quantitativo42],
+                    },
+                    Processos = new Processo[]
+                    {
+                        processos[(int)ProcessoEnum.GPR3],
                     }
+                    
                 },
                 new Nivel()
                 {
