@@ -27,9 +27,9 @@ namespace MPS_BR
     }
     public struct Processo
     {
-        public string Sigla { get; init; }
-        public string Nome { get; init; }
-        public bool Opcional { get; set; } = false;
-        public string Descricao { get; init; }
+        public string Sigla;
+        public string Nome;
+        public bool Opcional;
+        public string Descricao;
     }
 }
