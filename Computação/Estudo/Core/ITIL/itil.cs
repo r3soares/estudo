@@ -55,7 +55,7 @@ namespace ITIL
                 new Operacao()
                 {
                     Nome = "Operação de Serviço",
-                    Descricao = "Descreve a fase do ciclo de vida do gerenciamento de serviço responsável pelas atividades do dia dia",
+                    Descricao = "Se preocupa em entregar aos clientes e usuários os níveis de serviços acordados e gerenciar as aplicações, tecnologias e infraestrutura.",
                 },                
                 new Melhoria()
                 {
