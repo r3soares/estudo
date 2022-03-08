@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Estudo.Core.ITIL.funcoes
+namespace Estudo.Core.ITIL
 {
     /// <summary>
     /// Estrutura que contém profissionais capazes de ajudar no planejamento, 

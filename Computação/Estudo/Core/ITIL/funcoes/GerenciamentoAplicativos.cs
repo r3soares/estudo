@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Estudo.Core.ITIL.funcoes
+namespace Estudo.Core.ITIL
 {
     /// <summary>
     /// Gerencia aplicativos ao longo do seu ciclo de vida. É uma estrutura 
