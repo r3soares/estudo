@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Estudo.Core.ITIL
+namespace Computacao.ITIL
 {
     /// <summary>
     /// Estrutura criada para manutenção os acordos em termos de 

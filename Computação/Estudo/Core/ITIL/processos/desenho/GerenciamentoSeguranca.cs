@@ -1,4 +1,4 @@
-namespace ITIL
+namespace Computacao.ITIL
 {
     public class GerenciamentoSeguranca : Processo
     {
@@ -8,11 +8,11 @@ namespace ITIL
         public GerenciamentoSeguranca()
         {
             Ciclo = new LinkedList<KeyValuePair<string, string>>();
-            Ciclo.AddLast(new KeyValuePair<string, string>("Controlar", "Trata da organização e gerenciamento do processo"));
-            Ciclo.AddLast(new KeyValuePair<string, string>("Planejar", "Definir o aspecto da segurança do ANS, detalhando em ANOs posteriormente"));
+            Ciclo.AddLast(new KeyValuePair<string, string>("Controlar", "Trata da organizaï¿½ï¿½o e gerenciamento do processo"));
+            Ciclo.AddLast(new KeyValuePair<string, string>("Planejar", "Definir o aspecto da seguranï¿½a do ANS, detalhando em ANOs posteriormente"));
             Ciclo.AddLast(new KeyValuePair<string, string>("Implantar", "Implantar todas as medidas especificadas nos planejamentos"));
             Ciclo.AddLast(new KeyValuePair<string, string>("Avaliar", "Avaliar o desempenho das medidas planejadas a atende aos requisitos de clientes e terceiros"));
-            Ciclo.AddLast(new KeyValuePair<string, string>("Manutenção", "Mantém a parte do ANS que trata da segurança e mantém os planos detalhados de segurança"));
+            Ciclo.AddLast(new KeyValuePair<string, string>("Manutenï¿½ï¿½o", "Mantï¿½m a parte do ANS que trata da seguranï¿½a e mantï¿½m os planos detalhados de seguranï¿½a"));
         }
     }
 }

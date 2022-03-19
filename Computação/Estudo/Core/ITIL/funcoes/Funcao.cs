@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Estudo.Core.ITIL
+namespace Computacao.ITIL
 {
     public abstract class Funcao
     {

@@ -1,4 +1,4 @@
-namespace ITIL
+namespace Computacao.ITIL
 {
     public class GerenciamentoIncidentes : Processo
     {
@@ -10,20 +10,20 @@ namespace ITIL
             Escalacao = new string[]
             {
                 "Funcional",
-                "Hierárquica",
+                "Hierï¿½rquica",
             };
 
             Atividades = new Dictionary<string, string>
             {
-                {"Identificação", "Identifica o Incidente" },
-                {"Registro", "Registra o incidente com data, hora e informações relevantes" },
-                {"Classificação", "Classifica o tipo de incidente. Útil para identificar os incidentes mais recorrentes"},
-                {"Priorização", "Código de prioridade baseado no impacto e urgência"},
-                {"Diagnóstico", "Executado inicialmente pela Central de Serviços, que tenta descobrir os possiveis sintomas e o que não está funcionando"},
-                {"Escalação", "Se não puder ser resolvido pela Central, deve ser escalado dentro do tempo hábil para outro nível de suporte (funcional ou hierárquico)"},
-                {"Investigação e Diagnóstico", "Determina a natureza da requisição. Investiga o que ocorreu e faz um diagnóstico."},
-                {"Resolução e Recuperação","Identifica uma solução, aplica e testa" },
-                {"Fechamento","A Central de Serviços deverá categorizar o motivo do incidente, documentar e fazer o fechamento formal junto ao usuário" },
+                {"Identificaï¿½ï¿½o", "Identifica o Incidente" },
+                {"Registro", "Registra o incidente com data, hora e informaï¿½ï¿½es relevantes" },
+                {"Classificaï¿½ï¿½o", "Classifica o tipo de incidente. ï¿½til para identificar os incidentes mais recorrentes"},
+                {"Priorizaï¿½ï¿½o", "Cï¿½digo de prioridade baseado no impacto e urgï¿½ncia"},
+                {"Diagnï¿½stico", "Executado inicialmente pela Central de Serviï¿½os, que tenta descobrir os possiveis sintomas e o que nï¿½o estï¿½ funcionando"},
+                {"Escalaï¿½ï¿½o", "Se nï¿½o puder ser resolvido pela Central, deve ser escalado dentro do tempo hï¿½bil para outro nï¿½vel de suporte (funcional ou hierï¿½rquico)"},
+                {"Investigaï¿½ï¿½o e Diagnï¿½stico", "Determina a natureza da requisiï¿½ï¿½o. Investiga o que ocorreu e faz um diagnï¿½stico."},
+                {"Resoluï¿½ï¿½o e Recuperaï¿½ï¿½o","Identifica uma soluï¿½ï¿½o, aplica e testa" },
+                {"Fechamento","A Central de Serviï¿½os deverï¿½ categorizar o motivo do incidente, documentar e fazer o fechamento formal junto ao usuï¿½rio" },
             };
         }
     }

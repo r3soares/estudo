@@ -1,9 +1,9 @@
-namespace ITIL
+namespace Computacao.ITIL
 {
     /// <summary>
-    /// Via de regra, as requisições são tratadas pela Central de Serviço, mas não é incomum que requisições 
-    /// de serviço venham de outras fontes, como Requisições de Mudanças, e-mails, interface web, ligação
-    /// telefônica....
+    /// Via de regra, as requisiï¿½ï¿½es sï¿½o tratadas pela Central de Serviï¿½o, mas nï¿½o ï¿½ incomum que requisiï¿½ï¿½es 
+    /// de serviï¿½o venham de outras fontes, como Requisiï¿½ï¿½es de Mudanï¿½as, e-mails, interface web, ligaï¿½ï¿½o
+    /// telefï¿½nica....
     /// </summary>
     public class GerenciamentoRequisicoes : Processo
     {

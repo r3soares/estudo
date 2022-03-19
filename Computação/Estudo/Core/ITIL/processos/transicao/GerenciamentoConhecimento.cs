@@ -1,7 +1,7 @@
-namespace ITIL
+namespace Computacao.ITIL
 {
     public class GerenciamentoConhecimento : Processo
     {
-        public string Produto { get; init; } = "Sistema de Gestão de Conhecimento de Serviços (SGCS ou SKMS)";
+        public string Produto { get; init; } = "Sistema de Gestï¿½o de Conhecimento de Serviï¿½os (SGCS ou SKMS)";
     }
 }

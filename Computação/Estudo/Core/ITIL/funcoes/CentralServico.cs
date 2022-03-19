@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Estudo.Core.ITIL
+namespace Computacao.ITIL
 {
     /// <summary>
     /// Central de Serviço não é help desk! Um help desk tem como característica natural o fato de ser 

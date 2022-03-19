@@ -1,7 +1,7 @@
-namespace ITIL
+namespace Computacao.ITIL
 {
     public class GerenciamentoConfiguracao : Processo
     {
-        public string PrincipalProduto { get; init; } = "Sistema de Gerenciamento de Configuração (SGC)";
+        public string PrincipalProduto { get; init; } = "Sistema de Gerenciamento de Configuraï¿½ï¿½o (SGC)";
     }
 }

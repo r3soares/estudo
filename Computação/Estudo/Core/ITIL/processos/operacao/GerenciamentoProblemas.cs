@@ -1,4 +1,4 @@
-namespace ITIL
+namespace Computacao.ITIL
 {
     public class GerenciamentoProblemas : Processo
     {
@@ -6,7 +6,7 @@ namespace ITIL
         public Dictionary<string,string> Atividades { get; init; }
 
         /// <summary>
-        /// Métodos para análise e solução de problemas sugeridos pela ITIL 
+        /// Mï¿½todos para anï¿½lise e soluï¿½ï¿½o de problemas sugeridos pela ITIL 
         /// </summary>
         public Dictionary<string, string> Metodos { get; init; }
 
@@ -15,34 +15,34 @@ namespace ITIL
         {
             GestaoDeProblema = new Dictionary<string, string>()
             {
-                {"Reativo","Analisar a causa dos principais incidentes ocorridos, procurando resolver a causa, evitando a recorrência"},
-                {"Proativo","Através da análise de informações dos indicadores, procura por oportunidades de melhoria. Pode gerar entradas para o Plano de Melhoria de Serviço"},
+                {"Reativo","Analisar a causa dos principais incidentes ocorridos, procurando resolver a causa, evitando a recorrï¿½ncia"},
+                {"Proativo","Atravï¿½s da anï¿½lise de informaï¿½ï¿½es dos indicadores, procura por oportunidades de melhoria. Pode gerar entradas para o Plano de Melhoria de Serviï¿½o"},
             };
 
             Atividades = new Dictionary<string, string>
             {
-                {"Identificação", "" },
+                {"Identificaï¿½ï¿½o", "" },
                 {"Registro", "" },
-                {"Classificação", ""},
-                {"Priorização", ""},
-                {"Investigação e Diagnóstico", ""},
-                {"Identificação de Erros Conhecidos", ""},
-                {"Resolução de Problemas", ""},
+                {"Classificaï¿½ï¿½o", ""},
+                {"Priorizaï¿½ï¿½o", ""},
+                {"Investigaï¿½ï¿½o e Diagnï¿½stico", ""},
+                {"Identificaï¿½ï¿½o de Erros Conhecidos", ""},
+                {"Resoluï¿½ï¿½o de Problemas", ""},
                 {"Encerramento","" },
-                {"Revisão de Problema Grave","" },
+                {"Revisï¿½o de Problema Grave","" },
             };
 
             Metodos = new Dictionary<string, string>()
             {
-                {"Análise Cronológica","Rastro cronológico que pode ter conduzido ao problema" },
-                {"Análise de 'dor'","Análise de impacto na organização" },
-                {"Kepner e Tregoe","Defini e descreve o problema. Estabelece possíveis causas. Testa a causa mais provável e verifica a verdadeira causa" },
+                {"Anï¿½lise Cronolï¿½gica","Rastro cronolï¿½gico que pode ter conduzido ao problema" },
+                {"Anï¿½lise de 'dor'","Anï¿½lise de impacto na organizaï¿½ï¿½o" },
+                {"Kepner e Tregoe","Defini e descreve o problema. Estabelece possï¿½veis causas. Testa a causa mais provï¿½vel e verifica a verdadeira causa" },
                 {"Brainstorm","Tempestade de ideias" },
-                {"Mapeamento por afinidade","Organiza uma grande quantidade de informações por assunto" },
-                {"5 porquês","" },
-                {"Isolamento da falha","Reexecuta as rotinas para identificar aonde está o problema e aonde não está" },
-                {"Teste por hipótese","" },
-                {"Observação","" },
+                {"Mapeamento por afinidade","Organiza uma grande quantidade de informaï¿½ï¿½es por assunto" },
+                {"5 porquï¿½s","" },
+                {"Isolamento da falha","Reexecuta as rotinas para identificar aonde estï¿½ o problema e aonde nï¿½o estï¿½" },
+                {"Teste por hipï¿½tese","" },
+                {"Observaï¿½ï¿½o","" },
                 {"Diagrama de Ishikawa","" },
                 {"Pareto","" },
             };

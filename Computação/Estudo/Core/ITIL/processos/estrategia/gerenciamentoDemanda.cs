@@ -1,4 +1,4 @@
-namespace ITIL
+namespace Computacao.ITIL
 {
     /*
         Os objetivos do Gerenciamento da Demanda são a interpretação da demanda e o fornecimento de 

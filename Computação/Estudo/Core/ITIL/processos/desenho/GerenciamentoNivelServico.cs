@@ -1,4 +1,4 @@
-namespace ITIL
+namespace Computacao.ITIL
 {
     public class GerenciamentoNivelServico : Processo
     {
