@@ -1,4 +1,4 @@
-namespace MPS_BR
+namespace Computacao.MPS_BR
 {
     abstract public class Modelo
     {   

@@ -1,4 +1,4 @@
-namespace COBIT
+namespace Computacao.COBIT
 {
     public class Processo
     {

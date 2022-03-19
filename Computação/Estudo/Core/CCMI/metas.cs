@@ -1,6 +1,6 @@
-using CMMI;
+using Computacao.CMMI;
 
-namespace CCMI
+namespace Computacao.CCMI
 {
     public struct Metas
     {

@@ -1,4 +1,4 @@
-namespace CMMI
+namespace Computacao.CMMI
 {
     public struct AreaDoProcesso
     {

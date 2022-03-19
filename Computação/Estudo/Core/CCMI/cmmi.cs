@@ -1,6 +1,6 @@
 using CMMI;
 
-namespace CCMI
+namespace Computacao.CCMI
 {
     public class CMMI
     {
