@@ -1,4 +1,4 @@
-using Estudo.Core.ITIL;
+using Computacao.ITIL;
 
 namespace Computacao.ITIL
 {

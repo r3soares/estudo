@@ -1,5 +1,5 @@
 
-using BSC;
+using Computacao.BSC;
 
 namespace Computacao.COBIT
 {

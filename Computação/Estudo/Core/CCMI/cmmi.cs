@@ -1,4 +1,4 @@
-using CMMI;
+using Computacao.CMMI;
 
 namespace Computacao.CCMI
 {
